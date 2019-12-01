@@ -162,7 +162,7 @@ font = pygame.font.Font('./small/Algerian Regular.ttf', 25)
 
 
 pygame.mixer.init()
-pygame.mixer.music.load("file")
+pygame.mixer.music.load("BackgroundMusic.mp3")
 pygame.mixer.music.play(-1,0.0)
 
 
