@@ -161,6 +161,11 @@ game_display = pygame.display.set_mode([game_display_width, game_display_height]
 font = pygame.font.Font('./small/Algerian Regular.ttf', 25)
 
 
+pygame.mixer.init()
+pygame.mixer.music.load("file")
+pygame.mixer.music.play(-1,0.0)
+
+
 def end_game():
     pygame.quit()
     quit()
